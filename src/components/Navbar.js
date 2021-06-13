@@ -17,7 +17,7 @@ const Navbar = () => {
           <FaDog size="50px" />
         </GridItem>
         <NavItem text="Services" to="/services" />
-        <NavItem text="Contact" to="/" />
+        <NavItem text="Contact" to="/contact" />
         <GridItem></GridItem>
       </Grid>
     </Box>
