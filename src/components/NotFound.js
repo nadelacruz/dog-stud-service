@@ -1,19 +1,24 @@
 import { Box, Grid, GridItem, Heading, Text } from "@chakra-ui/layout";
+import { Link } from "react-router-dom";
 
-const Contact = () => {
+const NotFound = () => {
   return (
     <Box color="teal" textAlign="center">
       <Grid height="60vh">
         <GridItem alignSelf="center" margin="auto">
           <Heading fontSize="4xl" padding="20px">
-            You can reach us at these numbers.
+            Error 404.
           </Heading>
-          <Text fontSize="2xl">Nico Dela Cruz - 09267228111</Text>
-          <Text fontSize="2xl">Niña Dela Cruz - 09265208244</Text>
+          <Text fontSize="2xl" padding="20px" paddingTop="0">
+            The directory you are in is not found.
+          </Text>
+          <Link to="/">
+            <Text>Go to home.</Text>
+          </Link>
         </GridItem>
       </Grid>
     </Box>
   );
 };
 
-export default Contact;
+export default NotFound;

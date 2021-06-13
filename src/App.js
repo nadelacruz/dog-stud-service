@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
+import NotFound from "./components/NotFound";
 
 const theme = extendTheme({
   fonts: {
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
       </Router>
