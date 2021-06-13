@@ -12,7 +12,7 @@ const Home = () => {
           <Image
             htmlWidth="500px"
             borderRadius="full"
-            src="https://i.ibb.co/NNxCwtx/00000-IMG-00000-BURST20190628153201023-COVER-01.jpg"
+            src="https://i.ibb.co/k4wJfmb/3895-A8-ED-70-D6-4-BFC-B8-C4-6-C15-D4-FC726-F-01-3.jpg"
           />
         </GridItem>
         <GridItem justifySelf="center" textAlign="center" margin="auto 30px">

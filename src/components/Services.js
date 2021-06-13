@@ -84,6 +84,10 @@ export default function Services() {
                 <ListIcon as={FaCheckCircle} color="green.500" />
                 Drink water with Eevee.
               </ListItem>
+              <ListItem>
+                <ListIcon as={FaCheckCircle} color="green.500" />
+                Watch Eevee perform tricks.
+              </ListItem>
             </List>
           </VStack>
         </PriceWrapper>
