@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
+import About from "./components/About";
 
 const theme = extendTheme({
   fonts: {
@@ -21,6 +22,9 @@ function App() {
         <Switch>
           <Route path="/" exact>
             <Home />
+          </Route>
+          <Route path="/about">
+            <About />
           </Route>
         </Switch>
       </Router>

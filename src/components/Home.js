@@ -17,7 +17,7 @@ const Home = () => {
         </GridItem>
         <GridItem justifySelf="center" textAlign="center" margin="auto 30px">
           <Text color="teal" fontSize="2xl">
-            Eevee is a full breed Shih-poo who will help make your future
+            Eevee is a pure breed Shih-poo who will help make your future
             puppies! Contact us now.
           </Text>
         </GridItem>

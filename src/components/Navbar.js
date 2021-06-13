@@ -12,7 +12,7 @@ const Navbar = () => {
       >
         <GridItem></GridItem>
         <NavItem text="Home" to="/" />
-        <NavItem text="About" to="/" />
+        <NavItem text="About" to="/about" />
         <GridItem color="teal" margin="0 10px">
           <FaDog size="50px" />
         </GridItem>
