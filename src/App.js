@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import About from "./components/About";
+import Services from "./components/Services";
 
 const theme = extendTheme({
   fonts: {
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/services">
+            <Services />
           </Route>
         </Switch>
       </Router>
