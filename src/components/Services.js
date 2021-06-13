@@ -98,7 +98,7 @@ export default function Services() {
                 ₱
               </Text>
               <Text fontSize="5xl" fontWeight="900">
-                500.00
+                1000.00 / Puppy Share
               </Text>
             </HStack>
           </Box>

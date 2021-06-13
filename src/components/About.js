@@ -1,5 +1,5 @@
 import { Image } from "@chakra-ui/image";
-import { Box, Grid, GridItem, Heading, Text } from "@chakra-ui/layout";
+import { Box, Grid, GridItem, Heading, Text, Flex } from "@chakra-ui/layout";
 
 const About = () => {
   return (
@@ -21,9 +21,8 @@ const About = () => {
           margin="auto 30px"
         >
           <Text fontSize="2xl">
-            The Shih-Poo is a mixed breed dog — a cross between the Shih Tzu and
-            Toy Poodle dog breeds. Small, hypoallergenic and cuddly companions,
-            these pups inherited some of the best qualities from both of their
+            The Shih-Poo are small, hypoallergenic and cuddly companions, these
+            pups inherited some of the best qualities from both of their
             parents.
             <br />
             <br />
@@ -45,9 +44,12 @@ const About = () => {
             require regular vet check ups, dental cleanings, and grooming.
             Frequent potty breaks can also help if they inherit their Shih Tzu
             parents’ propensity for stubbornness and territorial marking.
-            <br />
-            <br />
           </Text>
+          <Flex justifyContent="flex-end">
+            <Box>
+              <Text as="i">- https://dogtime.com/dog-breeds/shih-poo</Text>
+            </Box>
+          </Flex>
         </GridItem>
       </Grid>
     </Box>
